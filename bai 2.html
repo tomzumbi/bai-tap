@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+nhập số mét <input type="text" id="a"> =<input type="text" id="b" disabled> ft <br>
+<button type="button" onclick="c()">chuyển</button>
+
+<script>
+
+  function c(){
+      let x = +document.getElementById("a").value
+      let y = x*3.2808
+    document.getElementById("b").value = y
+  }
+</script>
+</body>
+</html>
